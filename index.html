@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Enlightenment Ford University</title>
-    <link rel="stylesheet" href="./styles/assignment1.css">
+    <link rel="stylesheet" href="./styles/global.css">
+    <link rel="stylesheet" href="./styles/index.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
@@ -17,7 +18,7 @@
             <div class="nav-links" id="navLinks">
                 <i class="fa fa-times" onclick="hideMenu()"></i>
                 <ul>
-                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="index.html" class="button active">HOME</a></li>
                     <li><a href="About.html">ABOUT</a></li>
                     <li><a href="#">COURSE</a></li>
                     <li><a href="#">BLOG</a></li>
@@ -36,7 +37,7 @@
       
     <!-- Courses Section -->
     <section class="Course">
-        <h1>Courses We Offer</h1>
+        <h2>Courses We Offer</h2>
         <p>Browse our courses or filter your search by your preferred subject area</p>
         
         <div class="row">
@@ -57,7 +58,7 @@
 
     <!-- Campus Section -->
     <section class="campus">
-        <h1>Our Global Campus</h1>
+        <h2>Our Global Campus</h2>
         <p>Explore our campuses located in major cities worldwide.</p>
         <div class="row">
             <div class="Campus-col">
@@ -82,7 +83,7 @@
     </section>
     <!-- Facilities Section -->
     <section class="facilities">
-        <h1>Facilities</h1>
+        <h2>Facilities</h2>
         <p>We offer a variety of facilities to enhance your learning experience.</p>
         <div class="row">
             <div class="facilities-col">
@@ -105,7 +106,7 @@
 
     <!-- Testimonials Section -->
     <section class="testimonials">
-        <h1>What Our Students Say</h1>
+        <h2>What Our Students Say</h2>
         <p>Read feedback from our satisfied students</p>
         <div class="row">
             <div class="testimonials-col">
@@ -137,7 +138,7 @@
 
     <!-- Call to Action Section -->
     <section class="cta">
-        <h1>Join Us Today!</h1>
+        <h2>Join Us Today!</h2>
         <p>Take the first step towards your future with Enlightenment ford University.</p>
         <a href="#" class="hero-btn">CONTACT US</a>
     </section>
@@ -152,7 +153,7 @@
             <i class="fa fa-instagram"></i>
             <i class="fa fa-linkedin"></i>
         </div>
-           <p>copyright@mari2024 <i class="fa fa-heart-o"></i></p>
+           <p>copyright@mari2024<i class="fa fa-heart-o"></i></p>
         </section>
     </footer>
 
@@ -160,7 +161,6 @@
 <!-------JavaScript for Toggle Menu------------>
 
 <script>
-
     var navLinks = document.getElementById("navLinks");
   
     function showMenu(){
@@ -169,8 +169,6 @@
     function hideMenu(){
       navLinks.style.right = "-200px";
     }
-  
     </script>
-  
   </body>
 </html>
